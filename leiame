@@ -1,0 +1,18 @@
+PS C:\Users\felip\OneDrive\Área de Trabalho\Projetos em React> cd .\projeto01\
+PS C:\Users\felip\OneDrive\Área de Trabalho\Projetos em React\projeto01> npx create-vite calculadora
+Need to install the following packages:
+  create-vite@5.2.3
+Ok to proceed? (y) y
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+Scaffolding project in C:\Users\felip\OneDrive\Área de Trabalho\Projetos em React\projeto01\calculadora...
+
+Done. Now run:
+
+  cd calculadora
+  npm install
+  npm run dev
+
+
+
