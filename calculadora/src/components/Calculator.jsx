@@ -93,14 +93,14 @@ const Calculator = () => {
         <div className="complete-operation">{completeOperation}</div>
         <div className="display">{currentValue}</div>
         <div className="buttons">
-            <button onClick={handleClear}>AC</button>
+            <button onClick={handleClear} className="button large">AC</button>
             {keypadNumbers.map((num) => (
-                <button key={num} onClick={() => handleClick(num)}>{num}</button>
+                <button className="button" key={num} onClick={() => handleClick(num)}>{num}</button>
             ))}
             {operations.map((operation) => (
-                <button key={operation} onClick={() => handleOperation(operation)} >{operation}</button>
+                <button className="button operation" key={operation} onClick={() => handleOperation(operation)} >{operation}</button>
             ))}
-            <button onClick={handleCalculate}>=</button>
+            <button onClick={handleCalculate} className="button large calculator">=</button>
         </div>
         
     </div>
